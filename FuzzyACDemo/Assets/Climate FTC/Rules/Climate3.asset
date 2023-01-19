@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167081adfa60946479e7cc42ab2c73e9, type: 3}
+  m_Name: Climate3
+  m_EditorClassIdentifier: 
+  currentEditor: 1
+  inputConnections:
+  - membership: {fileID: 11400000, guid: 20458f6968cca28428f2eb400d300f33, type: 2}
+    index: 0
+  outputConnections:
+  - membership: {fileID: 11400000, guid: 0a428bd169fb18842981653f3fe4c05d, type: 2}
+    index: 4
+  - membership: {fileID: 11400000, guid: 9cdbebdf33224dd4994c75a9e50257e5, type: 2}
+    index: 0
+  inputFuzzyValues:
+  - 1
+  outputFuzzyValues:
+  - mf: {fileID: 11400000, guid: 0a428bd169fb18842981653f3fe4c05d, type: 2}
+    curveIndex: 4
+    outputValue: 1
+  - mf: {fileID: 11400000, guid: 9cdbebdf33224dd4994c75a9e50257e5, type: 2}
+    curveIndex: 0
+    outputValue: 1
+  inputs:
+  - {fileID: 11400000, guid: 20458f6968cca28428f2eb400d300f33, type: 2}
+  outputs:
+  - {fileID: 11400000, guid: 0a428bd169fb18842981653f3fe4c05d, type: 2}
+  - {fileID: 11400000, guid: 9cdbebdf33224dd4994c75a9e50257e5, type: 2}
+  connection: 1

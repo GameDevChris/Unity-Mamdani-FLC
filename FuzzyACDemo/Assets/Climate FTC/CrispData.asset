@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ce913763913804bbfdb3f0ec0fb2e7, type: 3}
+  m_Name: CrispData
+  m_EditorClassIdentifier: 
+  crisps:
+  - valName: InsideTemperature
+    valueUnit: "\xB0C"
+    value: 0
+    minimumValue: 0
+    maximumValue: 40
+    valueSlider: {fileID: 0}
+    fuzzyfiedCrisps:
+    - curveName: Very Cold
+      value: 1
+    - curveName: Cold
+      value: 0
+    - curveName: Ideal
+      value: 0
+    - curveName: Hot
+      value: 0
+    - curveName: Very Hot
+      value: 0
+    membershipFunction: {fileID: 11400000, guid: 20458f6968cca28428f2eb400d300f33,
+      type: 2}
+  - valName: OutsideTemperature
+    valueUnit: "\xB0C"
+    value: 32
+    minimumValue: 0
+    maximumValue: 40
+    valueSlider: {fileID: 0}
+    fuzzyfiedCrisps:
+    - curveName: Very Cold
+      value: 1
+    - curveName: Cold
+      value: 0
+    - curveName: Ideal
+      value: 0
+    - curveName: Hot
+      value: 0
+    - curveName: Very Hot
+      value: 0
+    membershipFunction: {fileID: 11400000, guid: 4f594d7a77d6a4648abd56952e4f8c82,
+      type: 2}
+  - valName: HumidityLevel
+    valueUnit: '%'
+    value: 50
+    minimumValue: 0
+    maximumValue: 100
+    valueSlider: {fileID: 0}
+    fuzzyfiedCrisps:
+    - curveName: Low
+      value: 0
+    - curveName: Medium
+      value: 1
+    - curveName: High
+      value: 0
+    membershipFunction: {fileID: 11400000, guid: 5e32c62535590d14d9f49a6e9d7f4773,
+      type: 2}
+  - valName: PeopleDensity
+    valueUnit: '%'
+    value: 49
+    minimumValue: 0
+    maximumValue: 100
+    valueSlider: {fileID: 0}
+    fuzzyfiedCrisps:
+    - curveName: Low
+      value: 0
+    - curveName: Medium
+      value: 0.96
+    - curveName: High
+      value: 0
+    membershipFunction: {fileID: 11400000, guid: 443a4d0140a82474ba5d100d7c5f3965,
+      type: 2}
+  - valName: EnergyUsage
+    valueUnit: "kWh/m\xB2"
+    value: 50
+    minimumValue: 0
+    maximumValue: 50
+    valueSlider: {fileID: 0}
+    fuzzyfiedCrisps:
+    - curveName: Low
+      value: 0
+    - curveName: Medium
+      value: 0
+    - curveName: High
+      value: 1
+    membershipFunction: {fileID: 11400000, guid: 52379fe346b092d47a4bc6b6cf552261,
+      type: 2}

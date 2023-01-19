@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ce913763913804bbfdb3f0ec0fb2e7, type: 3}
+  m_Name: Crisp
+  m_EditorClassIdentifier: 
+  crisps:
+  - valName: Temperature
+    value: 13.271432
+    minimumValue: -10
+    maximumValue: 30
+    valueSlider: {fileID: 0}
+    fuzzyfiedCrisps:
+    - curveName: Cold
+      value: 0.2955355
+    - curveName: Warm
+      value: 1.0004319
+    - curveName: Hot
+      value: 0.079464495
+    membershipFunction: {fileID: 11400000, guid: 7036718b41ff2ee4fab87c6574c79dfe,
+      type: 2}
+  - valName: Humidity
+    value: 14.25
+    minimumValue: 0
+    maximumValue: 100
+    valueSlider: {fileID: 0}
+    fuzzyfiedCrisps:
+    - curveName: Low
+      value: 0.7758278
+    - curveName: Medium
+      value: 0.20238633
+    - curveName: High
+      value: 0.000101930505
+    membershipFunction: {fileID: 11400000, guid: aa15f88fe420da2468bd71d498db20db,
+      type: 2}
+  - valName: Density
+    value: 73.714294
+    minimumValue: 0
+    maximumValue: 100
+    valueSlider: {fileID: 0}
+    fuzzyfiedCrisps:
+    - curveName: Very Low
+      value: 0
+    - curveName: Low
+      value: 0
+    - curveName: Medium
+      value: 0
+    - curveName: High
+      value: 0.87142944
+    - curveName: Very High
+      value: 0
+    membershipFunction: {fileID: 11400000, guid: c8ffe6d9ef7e6eb49a4b4a818e148bdf,
+      type: 2}
+  - valName: Window
+    value: 0
+    minimumValue: 0
+    maximumValue: 100
+    valueSlider: {fileID: 0}
+    fuzzyfiedCrisps:
+    - curveName: Closed
+      value: 1
+    - curveName: Half-Open
+      value: 0
+    - curveName: Open
+      value: 0
+    membershipFunction: {fileID: 11400000, guid: 006d2e6fd740deb4cb55a3385a609135,
+      type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9174c3bd82e7c4b9beb80b6ac3acd7, type: 3}
+  m_Name: Mamdani
+  m_EditorClassIdentifier: 
+  fuzzyRules:
+  - {fileID: 11400000, guid: a051f3e4cf59251469241eeeea242f9b, type: 2}
+  - {fileID: 11400000, guid: 3d23b4e72efce9c4297ea02cc9224fd3, type: 2}
+  - {fileID: 11400000, guid: ae71c7c9724480e47ba256c2232dc8b4, type: 2}
+  - {fileID: 11400000, guid: 9bed29311312bc846bd1f8f4cfa5dca9, type: 2}
+  - {fileID: 11400000, guid: 1bec9010eec87b449bb2429d44fc95e4, type: 2}
+  - {fileID: 11400000, guid: 8388da2febc6e984c800251bbbe88870, type: 2}
+  data: {fileID: 11400000, guid: f8555ba866af7a649b141fe7041319d6, type: 2}
+  fuzzyOutputs:
+  - {fileID: 11400000, guid: 27830da1c2144e04582c965b891d0acc, type: 2}
+  - {fileID: 11400000, guid: 4ea8df3693947694a902a937cbfe4083, type: 2}
+  memberships:
+  - {fileID: 11400000, guid: 20458f6968cca28428f2eb400d300f33, type: 2}
+  - {fileID: 11400000, guid: 4f594d7a77d6a4648abd56952e4f8c82, type: 2}
+  - {fileID: 11400000, guid: 5e32c62535590d14d9f49a6e9d7f4773, type: 2}
+  - {fileID: 11400000, guid: 443a4d0140a82474ba5d100d7c5f3965, type: 2}
+  - {fileID: 11400000, guid: 52379fe346b092d47a4bc6b6cf552261, type: 2}
+  - {fileID: 11400000, guid: 9cdbebdf33224dd4994c75a9e50257e5, type: 2}
+  - {fileID: 11400000, guid: 0a428bd169fb18842981653f3fe4c05d, type: 2}

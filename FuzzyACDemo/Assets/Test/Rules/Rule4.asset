@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 167081adfa60946479e7cc42ab2c73e9, type: 3}
+  m_Name: Rule4
+  m_EditorClassIdentifier: 
+  currentEditor: 1
+  inputConnections:
+  - membership: {fileID: 11400000, guid: aa15f88fe420da2468bd71d498db20db, type: 2}
+    index: 1
+  - membership: {fileID: 11400000, guid: c8ffe6d9ef7e6eb49a4b4a818e148bdf, type: 2}
+    index: 2
+  outputConnections:
+  - membership: {fileID: 11400000, guid: 006d2e6fd740deb4cb55a3385a609135, type: 2}
+    index: 1
+  inputFuzzyValues:
+  - 0.043936934
+  - 0
+  outputFuzzyValues:
+  - mf: {fileID: 11400000, guid: 006d2e6fd740deb4cb55a3385a609135, type: 2}
+    curveIndex: 1
+    outputValue: 0
+  inputs:
+  - {fileID: 11400000, guid: aa15f88fe420da2468bd71d498db20db, type: 2}
+  - {fileID: 11400000, guid: c8ffe6d9ef7e6eb49a4b4a818e148bdf, type: 2}
+  outputs:
+  - {fileID: 11400000, guid: 006d2e6fd740deb4cb55a3385a609135, type: 2}
+  connection: 1
